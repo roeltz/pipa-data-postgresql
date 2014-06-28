@@ -1,0 +1,22 @@
+{
+    "name": "pipa/data-postgresql",
+    "license": "MIT",
+    "description": "PostgreSQL driver package for the Pipa Framework",
+    "authors": [
+        {
+            "name": "Leonardo Rothe Tagliafico",
+            "email": "leo_rothe@msn.com",
+            "homepage": "http://leorothe.com/"
+        }
+    ],
+    "autoload": {
+    	"psr-0": {
+    		"Pipa\\": "src/"
+    	}
+    },
+    "require": {
+        "php": ">=5.3.0",
+		"pipa/base": "*",
+        "monolog/monolog": "1.3"
+    }
+}
