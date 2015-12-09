@@ -2,6 +2,7 @@
 
 namespace Pipa\Data\Source\PostgreSQL;
 use DateTime;
+use DateTimeZone;
 use Pipa\Data\Collection;
 use Pipa\Data\Field;
 use Pipa\Data\Util\GenericSQLGenerator;
